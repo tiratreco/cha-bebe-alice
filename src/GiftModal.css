@@ -1,0 +1,82 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #FDF8F0;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .modal-content h2 {
+      font-family: 'Great Vibes', cursive;
+      color: #E89FB0;
+      font-size: 2.5rem;
+      margin-top: 0;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6E615A;
+    cursor: pointer;
+  }
+  
+  .pix-qrcode {
+      width: 180px;
+      height: 180px;
+      margin: 1rem 0;
+  }
+  
+  .pix-key-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      margin-top: 0.5rem;
+  }
+  
+  .pix-key-container span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-right: 1rem;
+  }
+  
+  .pix-key-container button {
+      background-color: #E89FB0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: bold;
+      flex-shrink: 0;
+  }
+  
+  .pix-key-container button:hover {
+      opacity: 0.9;
+  }
