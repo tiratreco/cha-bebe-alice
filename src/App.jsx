@@ -11,12 +11,8 @@ import giftIcon from './assets/icon-gift.png';
 function App() {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  // --- CONFIGURAÇÕES ---
-  const whatsAppNumber = "558994461907"; 
-  const confirmationMessage = "Olá! Confirmo minha presença no Chá de Bebê da Alice!";
-  const googleMapsLink = "https://maps.app.goo.gl/2Y9Uhu7f1cUHN8y19";
-
-  const whatsappLink = `https://wa.me/${whatsAppNumber}?text=${encodeURIComponent(confirmationMessage)}`;
+  const googleMapsLink = "https://www.google.com/maps?q=-5.138781547546387,-42.755943298339844&z=17&hl=pt-BR";
+  const formsLink = "https://docs.google.com/forms/d/e/1FAIpQLSe7kbfFOhA7m6cViMWeKLZoMTPAuSzc4drf7-toMF02A-lvKA/viewform?usp=sharing&ouid=107549857200910871000";
 
   return (
     <div className="invitation-container">
@@ -33,19 +29,19 @@ function App() {
 
       <div className="details-section">
         <div>
-          <strong>Sábado</strong>
-          <p>19 de Março</p>
+          <strong>Sexta</strong>
+          <p>20 de Junho</p>
         </div>
         <div>
           <strong>Horário</strong>
-          <p>18 horas</p>
+          <p>19 horas</p>
         </div>
       </div>
 
-      <p className="location">Cond. Atlântico Sul - Talatona</p>
+      <p className="location">Quadra AH, Casa 02 - Parque Sul</p>
 
       <div className="actions-container">
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="action-button">
+        <a href={formsLink} target="_blank" rel="noopener noreferrer" className="action-button">
           <img src={calendarIcon} alt="Confirmar Presença" />
           <br />
           Confirme<br/>sua presença
@@ -62,7 +58,7 @@ function App() {
         </button>
       </div>
 
-      <p className="footer-text">Confirme a sua presença até dia 10/03/2025</p>
+      <p className="footer-text">Confirme a sua presença até dia 10/06/2025</p>
 
     </div>
   );

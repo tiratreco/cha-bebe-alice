@@ -1,9 +1,9 @@
 {
-  "name": "cha-de-bebe-alice",
+  "name": "cha-bebe-alice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tiratreco.github.io/cha-de-bebe-alice",
+  "homepage": "https://tiratreco.github.io/cha-bebe-alice",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
